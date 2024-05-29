@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @manasrpandya
+- 👀 I’m interested in AI, Blockchain and Cybersecurity
+- 🌱 I’m currently pursuing Bachelor's Data science and AI in Indian Institute of Technology Madras, Zanzibar campus
+- 💞️ I’m looking to collaborate on Deep learning's application based projects in either the quantum/cybersecurity areas
+- 📫 How to reach me: my public email is manasrpandya@gmail.com
