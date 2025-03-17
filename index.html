@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manas Pandya - Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <h1 class="name">Manas Pandya</h1>
+            <div class="profile-image-container">
+                <img src="assets/profile.jpg" alt="Manas Pandya" class="profile-image">
+            </div>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <div class="profile-section">
+                <h2>Manas Pandya</h2>
+                <p class="title">AI and Data Science Enthusiast</p>
+                <a href="assets/resume.pdf" target="_blank" class="resume-btn">View Resume</a>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>zda23b019@iitmz.ac.in</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>manasrpandya@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/manas-pandya/" target="_blank">LinkedIn Profile</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://www.github.com/manasrpandya" target="_blank">GitHub Profile</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/manas-pandya/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.github.com/manasrpandya" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.kaggle.com/manasrajanpandya" target="_blank"><i class="fab fa-kaggle"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <section id="about">
+            <h2>About</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Manas Pandya is a passionate AI and Data Science 
+                        student in his sophomore year at IIT Madras Zanzibar. With hands-on experience in AI model
+                         development he is also skilled in Python, Machine Learning, 
+                         and Deep Learning. He has a strong interest in dynamics-based 
+                         machine learning and is currently working on Time-Series based anamoly detection.
+                        His interests include Quantitative Finance, Machine Learning, Deep Learning, 
+                        and Computer Vision.</p>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="edu-item">
+                            <h4>Bachelors in Data Science & AI</h4>
+                            <p>Indian Institute of Technology Madras (Zanzibar)</p>
+                            <p>CGPA: 8.34/10</p>
+                        </div>
+                        <div class="edu-item">
+                            <h4>Senior Secondary</h4>
+                            <p>Sharada Mandir School, Panjim, Goa, India</p>
+                            <p>Percentage: 82%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects & Experience</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Projects will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2>Research Work</h2>
+            <div class="publications-grid" id="publications-container">
+                <!-- Publications will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>AI/ML</h3>
+                    <ul>
+                        <li>Deep Learning</li>
+                        <li>Computer Vision</li>
+                        <li>Image Processing</li>
+                        <li>LSTM</li>
+                        <li>kNN</li>
+                        <li>Ensemble Methods</li>
+                        <li>CNN</li>
+                        <li>Speech Recognition</li>
+                        <li>NLP</li>
+                        <li>Model Quantization</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>PyGame</li>
+                        <li>Data Analysis</li>
+                        <li>Feature Engineering</li>
+                        <li>Data Augmentation</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Libraries</h3>
+                    <ul>
+                        <li>TensorFlow/PyTorch</li>
+                        <li>Librosa</li>
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>Scikit-learn</li>
+                        <li>OpenCV</li>
+                        <li>LaTeX</li>
+                        <li>Git/GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+               
+                <div class="skill-category">
+                    <h3>Domain Knowledge</h3>
+                    <ul>
+                        <li>Astronomy</li>
+                    
+                        <li>Financial Technology</li>
+                        <li>Road Safety</li>
+                        <li>Industrial Automation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="resume-section">
+            <div class="resume-container">
+                <a href="assets/resume.pdf" target="_blank" class="resume-btn">Download Resume</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
